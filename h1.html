@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello HTML5</title>
+    <style>
+        h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+        
+        .alignleft {
+         display: inline;
+         float: left;
+        }
+        .alignright {
+         display: inline;
+         float: right;
+        }
+        .aligncenter {
+         clear: both;
+         display: block;
+         margin:auto;
+        }
+        .rigth , .left{
+            width: 48%;
+            float:left;
+            display:inline;
+        }
+        .rigth{
+            float:right;
+        }
+        div{
+            border-style: solid;
+            border-color: black;
+            height: auto;
+        }
+        
+        #top , #footer{
+             height: 155px;
+             padding: 4px; 
+        }
+        #footer-card{
+            width: 480px;
+        }
+        #content,#content-img,#content-article{
+            height: 460px;
+        }
+        #content-img{
+            float: left;
+        }
+        ul , li{
+            margin:0;
+            padding:0;
+        }
+        ul li{
+            list-style-type:none;
+            width: 409px;
+        }
+        ul li div{
+                display: inline-block;
+                width: 400px;
+        }
+        h1{
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        .rigth ul li{
+            float: left;
+        }
+        .rigth ul li,.rigth ul li div{
+            width: 509px;
+        }
+        .vertical{
+            width: 100px;
+            height: 800px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+        <!-- left -->
+        <div class="left">
+            <!-- top-->
+            <div id="top">
+                <img class="alignright" src="http://lorempixel.com/300/150/">
+            </div>
+            <!-- center -->
+            <div id="content">
+                <div id="content-img">
+                    <ul>
+                        <li>
+                            <div>
+                                <img src="http://lorempixel.com/400/200/">
+                                <span>this is pic1</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="http://lorempixel.com/400/200/">
+                                <span>this is pic2</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content-article">
+                    <h1>刷卡要求银行拒付: 被强迫消费后签假名 银行无责任对照签字</h1>
+                    <h2>刷卡要求银行拒付: 被强迫消费后签假名 银行无责任对照签字</h2>
+                        <p>在MUJI新店中展示的Found MUJI商品，有来自中国的明式家具、牛皮纸笔记本，
+                            也有来自日本的工具箱，以及来自欧洲餐馆中常见的玻璃水瓶等。</p>
+                        <p>这些在所在国用户心中早有认知基础，最能代表“简单”“合理”“实用”“基础”的东西，
+                            经过MUJI的演绎被“翻译”到全球，从而帮助品牌通过产品来构建表达，一如《无印良品的设计》一书中所</p>
+                        <p>除上述种种，还有一个极重要的原因，宇见认为，是得益于该品牌在组织形态和运营方式上，配备了一套自下而上的“洞察”系统。</p>
+                </div>
+            </div>
+            <!--footer -->
+            <div id="footer">
+                <div class="alignright" id="footer-card">
+                    <img class="alignleft" src="http://lorempixel.com/150/150/">
+                    <span>
+                        <p class="title">吃，吃，吃，吃</p>
+                        <p>这些在所在国用户心中早有认知基础，最能代表“简单”“合理”“实用”“基础”的东西， 经过MUJI的演绎被“翻译”到全球，从而帮助品牌通过产品来构建表达，一如《无印良品的设计》一书中所</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="rigth">
+            <div class="vertical"></div>
+            <div>
+                <ul>
+                    <li>
+                        <div>
+                                <img class="alignleft" src="http://lorempixel.com/400/180/">
+                                <span>刷卡要求银行拒付: 被强迫消费后签假名 银行无责任对照签字</span>
+                        </div>
+                    </li>
+                    <li>
+                            <div>
+                                <img class="alignright" src="http://lorempixel.com/400/180/">
+                                <span>刷卡要求银行拒付: 被强迫消费后签假名 银行无责任对照签字</span>
+                            </div>
+                    </li>
+                    <li>
+                        <div>
+                                <img class="alignleft" src="http://lorempixel.com/400/180/">
+                                <span>刷卡要求银行拒付: 被强迫消费后签假名 银行无责任对照签字</span>
+                        </div>
+                    </li>
+                    <li>
+                            <div>
+                                <img class="alignright" src="http://lorempixel.com/400/180/">
+                                <span>刷卡要求银行拒付: 被强迫消费后签假名 银行无责任对照签字</span>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div style="clear:both"></div> 
+</body>
+</html>
